@@ -31,25 +31,33 @@ Users should be able to:
 **Desktop Solution:** this is what the solution looks like on desktop devices
 
 <div align="center">
+  
   ![](images/solution-desktop.png)
+  
 </div>
 
 **Desktop Solution (active):** this is the active state of the desktop solution 
 
 <div align="center">
+  
   ![](images/solution-desktop-active.png)
+  
 </div>
 
 **Mobile Solution:** this is what the solution looks like on mobile devices
 
 <div align="center">
+  
   ![](images/solution-mobile.png)
+  
 </div>
 
 **Mobile Solution (active):** this is the active state of the mobile solution 
 
 <div align="center">
+  
   ![](images/solution-mobile-active.png)
+  
 </div>
 
 ### Links
