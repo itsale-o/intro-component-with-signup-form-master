@@ -14,35 +14,34 @@ form.addEventListener("submit", e => {
     var regexPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
     if(firstNameValue === ''){
-    errorFunc(firstName, "First Name cannot be empty")
+        errorFunc(firstName, "First Name cannot be empty")
     }
     else{
-    successFunc(firstName)
+        successFunc(firstName)
     }
 
     if(lastNameValue === ''){
-    errorFunc(lastName, "Last Name cannot be empty")
+        errorFunc(lastName, "Last Name cannot be empty")
     }
     else{
-    successFunc(lastName)
+        successFunc(lastName)
     }
 
     if(emailValue === ''){
-    errorFunc(email, "Email cannot be empty")
+        errorFunc(email, "Email cannot be empty")
     }else if(!emailValue.match(regexPattern)){
-    errorFunc(email, "Looks like this is not an email")
+        errorFunc(email, "Looks like this is not an email")
     }
     else{
-    successFunc(email)
+        successFunc(email)
     }
 
     if(passwordValue === ''){
-    errorFunc(password, "Password cannot be empty")
+        errorFunc(password, "Password cannot be empty")
     }
     else{
-    successFunc(password)
+        successFunc(password)
     }
-
 });
 
 function errorFunc(req, message){
@@ -54,10 +53,10 @@ function errorFunc(req, message){
     span.className += "error-text";
 
     if(req !== email){
-    req.value = " ";
+        req.value = " ";
     }
     else{
-    req.style.color = "hsl(0, 100%, 74%)"
+        req.style.color = "hsl(0, 100%, 74%)"
     }
 };
 
